@@ -167,7 +167,9 @@ h3 {
 
   &__game-centers {
     padding-left: 15px;
-
+    @media (max-width: 425px) {
+      display: none;
+    }
     & a:not(:first-child) {
       margin-left: 15px;
     }

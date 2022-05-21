@@ -241,6 +241,11 @@ h3 {
 .heading__game-centers {
   padding-left: 15px;
 }
+@media (max-width: 425px) {
+  .heading__game-centers {
+    display: none;
+  }
+}
 .heading__game-centers a:not(:first-child) {
   margin-left: 15px;
 }
