@@ -5,9 +5,13 @@ document.addEventListener('click', event => {
     let current =  navigation.classList.value;
     if(event.target.classList.value !== "" && current.includes('visible') &&event.target.classList!==navigation.classList){
         navigation.classList.remove('visible');
+        buttonMenu.classList.remove('animation');
+
     }
 })
 buttonMenu.addEventListener('click', ()=> {
     navigation.classList.toggle('visible');
+    buttonMenu.classList.toggle('animation');
+
 })
 
