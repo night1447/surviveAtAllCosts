@@ -192,7 +192,7 @@ h3 {
 }
 .first-screen__start:after {
   position: absolute;
-  content: url("/img/switch.svg");
+  content: url("switch.svg");
   width: 20px;
   height: 8px;
   left: 50%;
@@ -210,11 +210,6 @@ h3 {
   letter-spacing: 1px;
   font-size: 12px;
   font-weight: 700;
-}
-@media (max-width: 825px) {
-  .heading {
-    justify-content: space-around;
-  }
 }
 .heading__wrapper {
   flex-basis: 100%;
@@ -284,6 +279,7 @@ h3 {
 .heading__languages:hover .heading__language-wrapper {
   opacity: 1;
   visibility: visible;
+  z-index: 1;
 }
 .heading__language-wrapper {
   display: flex;
@@ -301,6 +297,7 @@ h3 {
   border-radius: 10px;
   opacity: 0;
   visibility: hidden;
+  z-index: -2;
   transition: opacity 0.3s, visibility 0.3s;
 }
 @media (max-width: 825px) {
@@ -329,7 +326,7 @@ h3 {
 @media (max-width: 825px) {
   .navigation__list {
     opacity: 0;
-    z-index: -1;
+    z-index: -2;
     visibility: hidden;
     flex-direction: column;
     position: absolute;
