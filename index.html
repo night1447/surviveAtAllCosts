@@ -6,12 +6,14 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Survive</title>
 </head>
 <body>
 <header class="first-screen">
     <img src="img/first-image.jpg" alt="backgroundGame" class="first-screen__background">
+    <div class="first-screen__circle-grad"></div>
     <div class="container">
         <div class="first-screen__wrapper">
             <div class="heading">
@@ -73,7 +75,52 @@
         </div>
     </div>
 </header>
+<section class="info">
+    <img src="img/bg%20image%202.jpg" alt="background" class="info__background">
+    <div class="container">
+        <div class="info__wrapper">
+            <div class="info__inner-wrapper">
+                <div class="info__whatIs">
+                    <h3 class="info__subtitle">
+                        What is SOS?
+                    </h3>
+                    <h1 class="info__title">
+                        social battle royale game
+                    </h1>
+                </div>
+                <p class="info__text">
+                    Each round, you and 15 other contestants compete to
+                    escape a deadly island filled with monsters. The trick is: three people can survive. Will you run
+                    solo or form friendships with others to escape?
 
+                    Making the right decisions could be the
+                    difference between life and death.
+                </p>
+            </div>
+            <div class="info__gallery">
+                <div class="info__slider swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide info__slider-item">
+                            <img src="img/screenshot%201.jpg" alt="" class="info__slider-image">
+                        </div>
+                        <div class="swiper-slide info__slider-item">
+                            <img src="img/screenshot%202.jpg" alt="" class="info__slider-image">
+
+                        </div>
+                        <div class="swiper-slide info__slider-item">
+                            <img src="img/screenshot%203.jpg" alt="" class="info__slider-image">
+                        </div>
+
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="block"></div>
+<script src="script/swiper-bundle.min.js"></script>
 <script src="script/main.js"></script>
 </body>
 </html>
