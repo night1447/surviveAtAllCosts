@@ -232,7 +232,7 @@ h3 {
 
 .first-screen__start:after {
   position: absolute;
-  content: url("/css/switch.svg");
+  content: url("switch.svg");
   width: 20px;
   height: 8px;
   left: 50%;
