@@ -275,11 +275,11 @@ h3 {
 
 @media (max-width: 825px) {
   .heading__wrapper {
-    -ms-flex-preferred-size: 80%;
-        flex-basis: 80%;
-    -webkit-box-pack: right;
-        -ms-flex-pack: right;
-            justify-content: right;
+    -ms-flex-preferred-size: auto;
+        flex-basis: auto;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;

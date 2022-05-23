@@ -156,8 +156,8 @@ h3 {
     justify-content: space-evenly;
     align-items: center;
     @media (max-width: 825px) {
-     flex-basis: 80%;
-      justify-content: right;
+     flex-basis: auto;
+	  justify-content: end;
       align-items: center;
     }
   }
